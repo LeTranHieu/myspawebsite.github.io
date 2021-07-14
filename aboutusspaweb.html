@@ -210,10 +210,20 @@ p {font-family: 'Rubik', sans-serif;
    overflow-x: hidden;
    overflow-y: scroll;
  }
-  ::-webkit-scrollbar {
-    display: none;
-}	
+	
+::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
 
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+	
   header {
   display: block;
   margin-left: 300px;
